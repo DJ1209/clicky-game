@@ -51,8 +51,8 @@ class App extends Component {
             p className = "App-intro" >
             Try not to click the same image twice!
             <
-            /p> <
-            /header> <
+            /p> < /
+            header > <
             Score total = { this.state.score }
             goal = { 8 }
             status = { this.state.status }
@@ -69,12 +69,12 @@ class App extends Component {
             /Wrapper> <
             footer >
             <
-            p > Designed and built by Heather Mathies.You can find the code < a href = "https://github.com/hmathies/Clicky-Game"
+            p > Designed and built by Heather Mathies.You can find the code < a href = "https://github.com/DJ1209/clicky-game"
             target = "_blank"
             rel = "noopener noreferrer" > here < /a>.</p >
             <
-            /footer> <
-            /div>
+            /footer> < /
+            div >
         );
     }
 }
